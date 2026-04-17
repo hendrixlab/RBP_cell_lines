@@ -1,0 +1,10 @@
+reading uniprot table
+reading uniprot to ensembl mapping
+reading cell atlas data
+reading celltype descriptions
+Found 3146 ENSEMBL out of 4156 uniprot IDs: 75.7%
+ID MAPPING: Found  3146  ENSEMBL out of 4156 UNIPROT
+Found  1559 unique ensembl out of 4156 unique uniprot
+total diseases/subtypes: 29
+Cell Atlas: 1455 with expression data out of 1559 total: 93.0%
+104 genes with no expression data
