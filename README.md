@@ -23,6 +23,8 @@ This produces a list of all RBPs that have not been tested by SPIDR, or ENCORE d
 
 
 
+** DATA COLLECTION **
+
 
 1. Files downloaded for proteins:
 
