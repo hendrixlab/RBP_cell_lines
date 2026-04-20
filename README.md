@@ -4,7 +4,12 @@ I. Cluster-based Processing of RBP data:
 
 Core command: 
 
+python scripts/study_rbp_celltypes.py July_2025/uniprotkb_GO_0003723_NOT_GO_0003735_NOT_2025_07_04.tsv July_2025/idmapping_2025_07_04.tsv rna_celline.tsv rna_celline_description.tsv July_2025/DAVID_table_July_2025.txt tested_rbp_list.txt RBP_vs_transcriptType_count_HepG2.tsv
 
+This method takes in DAVID clusters and rna cell-line expression data, generates heatmaps and other figures, outputs multiple tables in tab-delimited format. Produces lists of genes, mostly around cluster groupings with the exception of full_rpb_list.txt, which is a list of all UniProt genes
+
+
+(There is a similar command for with_ribo included)
 
 
 
@@ -14,7 +19,7 @@ Core command:
 
 python rbp_list_untested_sr.py July_2025/uniprotkb_GO_0003723_NOT_GO_0003735_NOT_2025_07_04.tsv July_2025/idmapping_2025_07_04.tsv rna_celline.tsv rna_tissue_consensus.tsv tested_rbp_list.txt
 
-
+This produces a list of all RBPs that have not been tested by SPIDR, or ENCORE data sets. 
 
 
 
