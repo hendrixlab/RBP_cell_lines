@@ -12,6 +12,11 @@ II. Print All Untested RBPs with expression:
 
 Core command:
 
+python rbp_list_untested_sr.py July_2025/uniprotkb_GO_0003723_NOT_GO_0003735_NOT_2025_07_04.tsv July_2025/idmapping_2025_07_04.tsv rna_celline.tsv rna_tissue_consensus.tsv tested_rbp_list.txt
+
+
+
+
 
 
 1. Files downloaded for proteins:
